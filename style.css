@@ -14,7 +14,7 @@
 
 /* resetCSS*/
 
-* {
+* { /* aplica esto a absolutamente todos los elementos de la página */
   font-family: "disney";
 }
 
@@ -25,12 +25,8 @@ body{
     }
 
 
-ul li{
-    list-style-type: none;
-    a{
-        text-decoration: none;                        
-    }   
-}
+
+    
 /* Clases */
 
 .centralizar{
