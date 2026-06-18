@@ -34,7 +34,7 @@ body{
     justify-content: center;
     align-items: center;
     gap:20px;
-    @media (max-width: 760px) {
+    @media (max-width: 760px) { /* con el @media () {} indicamos bajo que tamaño de pantalla que reglas se van a cumplir. En este caso indicamos que en una pantalla con un tamaño MAXIMO de 760px de ancho (osea, qu todas as pantallas por debajo de esto) vana  adquirir los estilos que les estamos indicando, cualquiera que no cumpla con las condiciones no lo obtenderan */
         flex-direction: column;
     }
 }
@@ -49,13 +49,13 @@ body{
   background-color: rgba(190, 63, 112, 0.235);
 
   a {
-    color: hsla(192, 44%, 37%, 0.984);
+    color: hsla(192, 44%, 37%, 0.984); 
 
-    &::after {
+    &::after { /*aqui con el after indicamos uma regla que se executa depois de seu primeiro uso*/
       color: rgba(17, 0, 255, 0.634);
       text-decoration: none;
     }
-     &:hover{
+     &:hover{ /*o hover representa a ação que se ejecutara quando posicionem o mouse em cima do elemento*/
         color: rgb(3, 20, 101);
         text-decoration: underline;
     }
